@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c3ab591-b9f9-4cec-9dee-cd827e430185" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZMcaR0O3wW16K7qv52OZiihDvh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c3ab591-b9f9-4cec-9dee-cd827e430185" name="Default Changelist" comment="" />
+      <created>1584652466433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584652466433</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1584656164767">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1584656164767" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1584656212296">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1584656212296" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1584656212295">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1584656212295" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1584656212295">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1584656212295" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1584656212296">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1080@0.0.1920.1050" timestamp="1584656212296" />
+    <state x="-1144" y="320" key="chooseDestDirectoryDialog" timestamp="1584652680227">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1144" y="320" key="chooseDestDirectoryDialog/0.0.1920.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584652680227" />
+    <state x="-1297" y="235" key="search.everywhere.popup" timestamp="1584652664645">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1297" y="235" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584652664645" />
+  </component>
+</project>
