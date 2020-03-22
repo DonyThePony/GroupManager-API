@@ -1,6 +1,7 @@
 package de.donythepony.group.api.event;
 
 import de.donythepony.group.api.structure.Group;
+import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
@@ -10,10 +11,12 @@ public class GroupAddExpEvent extends Event {
 
     private final int experiencePoints;
     private final Group group;
+    private final Player player;
 
-    public GroupAddExpEvent(Group group, int experiencePoints) {
+    public GroupAddExpEvent(Player player, Group group, int experiencePoints) {
         this.group = group;
         this.experiencePoints = experiencePoints;
+        this.player = player;
     }
 
     @Override
@@ -28,6 +31,8 @@ public class GroupAddExpEvent extends Event {
     public Group getGroup() {
         return group;
     }
+
+    public Player getPayer() {return player;}
 
     public int getExperiencePoints() {
         return experiencePoints;

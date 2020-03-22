@@ -1,4 +1,4 @@
 name: GroupManager
 version: '1.0'
-main: de.donythepony.GroupManager
+main: de.donythepony.group.api.util.GroupManager
 api-version: '1.15'

@@ -1,6 +1,8 @@
 package de.donythepony.group.api.util;
 
 import de.donythepony.group.api.structure.Group;
+import de.donythepony.group.api.structure.GroupEventListener;
+import de.donythepony.group.api.structure.GroupPlayer;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -21,6 +23,8 @@ public class GroupManager extends JavaPlugin {
     public void onEnable() {
         instanceID = UUID.randomUUID().toString();
         System.out.println("[GroupManager-API] my id: " + instanceID);
+
+        getServer().getPluginManager().registerEvents(new GroupEventListener(), this);
     }
 
     public static GroupManager getInstance() {
@@ -80,5 +84,9 @@ public class GroupManager extends JavaPlugin {
             return true;
         }
         return false;
+    }
+
+    public GroupPlayer getGroupPlayerForPlayer(Player player, Group group) {
+        return group.getGroupPlayerFromPlayer(player);
     }
 }

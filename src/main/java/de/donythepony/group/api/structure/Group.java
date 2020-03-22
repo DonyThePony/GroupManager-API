@@ -136,7 +136,17 @@ public class Group {
         this.experiencePoints = experiencePoints;
     }
 
-    protected void addExperiencePoints(int experiencePoints) {
+    protected void addExperiencePoints(Player player, int experiencePoints) {
         this.experiencePoints += experiencePoints;
+        getGroupPlayerFromPlayer(player).addCollectedExp(experiencePoints);
+        System.out.println(getGroupPlayerFromPlayer(player).getPlayer().getDisplayName() + " Collected " + experiencePoints);
+    }
+
+    public GroupPlayer getGroupPlayerFromPlayer(Player player) {
+        return memberList.getGroupPlayerFromPlayer(player);
+    }
+
+    public void kickPlayer(Player player) {
+       memberList.kickPlayer(player);
     }
 }
