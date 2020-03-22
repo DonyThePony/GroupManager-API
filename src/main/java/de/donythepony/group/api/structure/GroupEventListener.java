@@ -1,8 +1,10 @@
 package de.donythepony.group.api.structure;
 
 import de.donythepony.group.api.event.GroupAddExpEvent;
+import de.donythepony.group.api.event.GroupDeathEvent;
 import de.donythepony.group.api.event.GroupKillEvent;
 import de.donythepony.group.api.structure.Group;
+import de.donythepony.group.api.util.GroupManager;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -29,6 +31,12 @@ public class GroupEventListener implements Listener {
             groupPlayer.addPlayerKills(1);
         }
 
+    }
+
+    @EventHandler
+    protected void addDeathToGroup(GroupDeathEvent event) {
+        GroupPlayer groupPlayer = event.getGroup().getGroupPlayerFromPlayer(event.getVictim());
+        groupPlayer.addDeath(1);
     }
 
 }

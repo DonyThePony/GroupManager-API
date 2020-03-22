@@ -3,4 +3,6 @@ C:\Users\dsaracino\IdeaProjects\GroupManager-API\src\main\java\de\donythepony\gr
 C:\Users\dsaracino\IdeaProjects\GroupManager-API\src\main\java\de\donythepony\group\api\event\GroupAddExpEvent.java
 C:\Users\dsaracino\IdeaProjects\GroupManager-API\src\main\java\de\donythepony\group\api\structure\GroupEventListener.java
 C:\Users\dsaracino\IdeaProjects\GroupManager-API\src\main\java\de\donythepony\group\api\structure\GroupPlayer.java
+C:\Users\dsaracino\IdeaProjects\GroupManager-API\src\main\java\de\donythepony\group\api\event\GroupDeathEvent.java
+C:\Users\dsaracino\IdeaProjects\GroupManager-API\src\main\java\de\donythepony\group\api\event\GroupKillEvent.java
 C:\Users\dsaracino\IdeaProjects\GroupManager-API\src\main\java\de\donythepony\group\api\util\GroupManager.java

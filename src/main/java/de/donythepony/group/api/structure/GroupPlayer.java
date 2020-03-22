@@ -4,9 +4,10 @@ import org.bukkit.entity.Player;
 
 public class GroupPlayer {
     private final Player player;
-    private int collectedExp = 0;
-    private int kills = 0;
+    private int collectedExp;
+    private int kills;
     private int playerKills;
+    private int deaths;
 
     public GroupPlayer(Player player) {
         this.player = player;
@@ -42,5 +43,13 @@ public class GroupPlayer {
 
     public void addPlayerKills(int killCount) {
         this.playerKills += killCount;
+    }
+
+    public int getDeaths() {
+        return deaths;
+    }
+
+    public void addDeath(int deathCount) {
+        this.deaths += deathCount;
     }
 }
