@@ -4,3 +4,4 @@ de\donythepony\group\api\util\GroupManager.class
 de\donythepony\group\api\structure\Group.class
 de\donythepony\group\api\structure\GroupEventListener.class
 de\donythepony\group\api\structure\GroupPlayer.class
+de\donythepony\group\api\event\GroupKillEvent.class
