@@ -15,9 +15,13 @@ public class GroupEventListener implements Listener {
     @EventHandler
     protected void addExpToGroup(GroupAddExpEvent event) {
         Player player = event.getPayer();
-        System.out.println(player.getDisplayName() + " Collected " + event.getExperiencePoints());
+        int exp = event.getExperiencePoints();
         Group group = event.getGroup();
+        exp = Math.max(1, exp / group.getAllMembers().size());
         group.addExperiencePoints(event.getPayer(), event.getExperiencePoints());
+        for(Player member : group.getAllMembers()) {
+            member.giveExp(exp);
+        }
     }
 
     @EventHandler
