@@ -1,6 +1,6 @@
-package de.donythepony;
+package de.donythepony.group.api.util;
 
-import de.donythepony.structure.Group;
+import de.donythepony.group.api.structure.Group;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 

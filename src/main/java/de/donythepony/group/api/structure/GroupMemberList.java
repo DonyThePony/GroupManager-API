@@ -1,4 +1,4 @@
-package de.donythepony.structure;
+package de.donythepony.group.api.structure;
 
 import net.md_5.bungee.api.chat.BaseComponent;
 import org.bukkit.entity.Player;

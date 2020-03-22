@@ -1,0 +1,5 @@
+de\donythepony\group\api\structure\Group.class
+de\donythepony\group\api\structure\GroupMemberList.class
+de\donythepony\group\api\structure\GroupEventListener.class
+de\donythepony\group\api\event\GroupAddExpEvent.class
+de\donythepony\group\api\util\GroupManager.class

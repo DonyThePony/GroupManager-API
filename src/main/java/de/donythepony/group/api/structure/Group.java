@@ -1,8 +1,7 @@
-package de.donythepony.structure;
+package de.donythepony.group.api.structure;
 
-import de.donythepony.GroupManager;
+import de.donythepony.group.api.util.GroupManager;
 import net.md_5.bungee.api.chat.BaseComponent;
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 import java.util.LinkedList;
@@ -135,5 +134,9 @@ public class Group {
 
     public void setExperiencePoints(int experiencePoints) {
         this.experiencePoints = experiencePoints;
+    }
+
+    protected void addExperiencePoints(int experiencePoints) {
+        this.experiencePoints += experiencePoints;
     }
 }
